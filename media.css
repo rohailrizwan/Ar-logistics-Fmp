@@ -1,0 +1,514 @@
+@media screen and (max-width:1199px){
+    .aboutbox{
+        position: relative;
+        top: 130px;
+    }
+    .onTime h3{
+        font-size: 18px;
+    }
+    .onTime p{
+        font-size: 12px;
+    }
+    .onTime{
+        height: 190px;
+    }
+    .choose_us{
+        position: relative;
+        padding-left: 75px;
+        margin-bottom: 5px;
+        top: 40px;
+    }
+    .choose_us::after{
+        content: '';
+        background-color: #FF4800;
+        position: absolute;
+        height: 2px;
+        width: 11%;
+        left: 0px;
+        top: 13px;
+    }
+    .deliver_text h1 {
+        font-size: 31px;
+        font-weight: bold;
+        font-family: 'Anuphan', sans-serif;
+        margin-bottom: 40px;
+        position: relative;
+        top: 60px;
+      }
+      .fast_service {
+        line-height: 30px;
+        position: relative;
+        top: 50px;
+      }
+      .vision_text p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        text-transform: capitalize;
+        color: #03324d;
+        text-align: justify;
+        line-height: 27px;
+      }
+      .Email-links {
+        font-size: 13px;
+        line-height: 50px;
+      }
+}
+@media screen and (min-width:992px) {
+    #displaynav{
+        display: none !important;
+    }
+}
+@media screen and (max-width:992px) {
+    .nav{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        display: flex;
+        align-items: center;
+    }
+    
+    .cross{
+    font-size: 35px;
+    color: orangered;
+    }
+    .ham{
+    font-size: 35px;
+    color: orangered;
+    }
+    #displaynav{
+        width: 100%;
+    background-color: b;
+    height: 295px;
+    background-color: #03324d;
+    }
+    #displaynav ul{
+        height: 240px;
+        /* background-color: black; */
+    }
+    #displaynav ul li{
+        margin-bottom: 20px !important;
+    }
+    .nav_list{
+        font-size: 25px;
+        text-decoration: none;
+        list-style: none;
+        padding-right: 0px;
+        color: orangered;
+    }
+    .aboutbox{
+        position: relative;
+        top: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .abimg{
+        position: relative;
+        bottom: 0px;
+    }
+    .about_sec{
+        padding-bottom: 76px !important;
+    }
+    .img-fluid{
+        width: 100% !important;
+    }
+    .Service_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 160px;
+    }
+    .service_text_sec{
+        justify-content: flex-start !important;
+        height: 190px !important;
+        margin-bottom: 25px;
+    }
+    .readmore {
+        padding-left: 0px;
+      }
+    .services_top{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .services_top p{
+        border-left: 8px solid gainsboro;
+        padding-left: 20px;
+    }
+    .service_section{
+        height: 530px;
+    }
+    #road,#air,#Ocean{
+        font-size: 12px !important;
+        text-align: justify;
+    }
+    .card_section{
+        position: relative;
+        bottom: 125px;
+    }
+    .deliver_row{
+        align-items: flex-start !important;
+    }
+    .choose_us {
+        position: relative;
+        padding-left: 75px;
+        margin-bottom: 5px;
+        top: 0px;
+      }
+      .deliver_text h1 {
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Anuphan', sans-serif;
+        margin-bottom: 40px;
+        position: relative;
+        top: 15px;
+      }
+      .fast_service {
+        line-height: 26px;
+        position: relative;
+        top: 7px;
+        font-size: 12px;
+      }
+      .margin_bottom{
+        margin-bottom: 50px;
+      }
+      .deliver-img{
+        height: 540px;
+      }
+      .vision_text {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+      }
+      .visionimg {
+        padding-left: 0px;
+      }
+      .Newsimg img {
+        border: 2px solid #FF4800;
+        position: relative;
+        top: 50px;
+      }
+      #news {
+        height: 630px;
+        margin-bottom: 50px;
+      }
+      .imgcol{
+        padding-bottom: 50px;
+      }
+      .footer-logo img{
+        width: 50% !important;
+      }
+      .text-light-gray {
+        color: #a7a8b4;
+        font-size: 25px;
+      }
+      .p-num ,.E-icon{
+        padding-top: 6px;
+        padding-right: 20px !important; 
+      }
+      .socialicon{
+        padding-top: 25px;
+      }
+      .footer-services h4, .footer-link h4, .contact-us h4{
+        padding-left: 0px;
+      }
+      .footer-services h4::after{
+        left: 0px;
+      }
+      .footer-link h4::after{
+        left: 0px;
+      }
+      .contact-us h4::after{
+        left: 0px;
+        width: 25%;
+      }
+      .services_ul {
+        padding-left: 0px;
+        font-size: 18px !important;
+      line-height: 40px;
+    }
+    .Email-links {
+        font-size: 13px;
+        line-height: 50px;
+        line-height: 40px;
+      }
+      .footer-link ul{
+        padding-left: 0px;
+        line-height: 40px;
+      }
+      .f1{
+        margin-bottom: 45px;
+      }
+      .contact-us ul{
+        padding-left: 0px !important;
+      }
+      .CopyrightFont{
+        font-size: 15px !important;
+        text-align: center ;
+      }
+}
+@media screen and (max-width:767px){
+    #road,#air,#Ocean{
+        font-size: 18px !important;
+        text-align: justify;
+    }
+    .service_section{
+        margin-bottom: 40px;
+        height: 435px !important;
+    }
+    .card_section{
+        position: relative;
+         bottom: 0px;
+         margin-bottom: 20px;
+    }
+    .deliver-img{
+        height: 820px;
+    }
+    .Newsimg img {
+        border: 2px solid #FF4800;
+        position: relative;
+        top: 79px;
+      }
+      .imgcol {
+        padding-bottom: 80px;
+      }
+      #news {
+        height: 580px;
+      }
+      .contact-us h4{
+        padding-left: 0px;
+      }
+      .contact-us h4::after{
+        left: 0px;
+        width: 15%;
+      }
+
+}
+
+    @media screen and (max-width:576px){
+    .aboutheading {
+        color: #03324d;
+        font-family: 'Anuphan', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .aboutbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .onTime{
+        margin-bottom: 10px;
+    }
+    .m_right{
+        margin-right: 0px !important;
+    }
+    .onTime h3{
+        font-size: 35px;
+    }
+    .globe,.fast_truck{
+        font-size: 40px;
+    }
+    .addclass{
+        height: 480px !important;
+    }
+    .footer-logo,.address,.phone-number,.socialicon,.footer-services,.footer-link,.contact-us{
+        padding-left: 25px;
+    }
+    .footer-services h4::after{
+        width: 15%;
+    }
+    .footer-link h4::after{
+        width: 15%;
+    }
+}
+@media screen and (max-width:490px)
+{
+    .service_section {
+        margin-bottom: 40px;
+        height: 420px !important;
+      }
+      .addclass{
+        height: 520px !important;
+    }
+    .deliver-img{
+        height: 785px;
+    }
+    #news {
+        height: 540px;
+      }
+      .footer-font{
+        font-size: 18px !important;
+      }
+      .footer-logo img {
+        width: 100% !important;
+      }
+
+}
+@media screen and (max-width:440px){
+    #news {
+        height: 570px;
+      }
+}
+@media screen and (max-width:430px){
+    .Service_text h5{
+        margin-bottom: 10px;
+        color: white;
+        font-weight: 200;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .Service_text h1{
+        color: white;
+        font-weight: bold;
+        font-family: 'Anuphan', sans-serif;
+        font-size: 40px;
+        text-transform: capitalize;
+    }
+    .addclass{
+        height: 560px !important;
+    }
+    .choose_us::after {
+        content: '';
+        background-color: #FF4800;
+        position: absolute;
+        height: 2px;
+        width: 17%;
+        left: 0px;
+        top: 13px;
+      }
+      #news {
+        height: 500px;
+      }
+      .news_text h1 {
+        font-size: 42px;
+        color: white;
+        font-weight: bold;
+        font-family: 'Anuphan', sans-serif;
+      }
+      .footer-services h4::after{
+        width: 18%;
+    }
+    .footer-link h4::after{
+        width: 18%;
+    }
+    .contact-us h4::after{
+        width: 18%;
+    }
+   
+    }
+    @media screen and (max-width:400px){
+        #news {
+            height: 530px;
+          }
+          .news_text h1 {
+            font-size: 44px;
+            color: white;
+            font-weight: bold;
+            font-family: 'Anuphan', sans-serif;
+          }
+         
+    }
+@media screen and (max-width:386px){
+       .service_section{
+        height: 450px !important;
+       } 
+       .addclass{
+        height: 600px !important;
+    }
+ }
+@media screen and (max-width:346px){
+.aboutheading {
+    color: #03324d;
+    font-family: 'Anuphan', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+.Arl_intro{
+    font-size: 15px
+}
+.onTime h3{
+    font-size: 25px;
+}
+.globe,.fast_truck{
+    font-size: 30px;
+}
+.Service_text h1 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Anuphan', sans-serif;
+    font-size: 34px;
+    text-transform: capitalize;
+  }
+  .addclass{
+    height: 650px !important;
+  }
+  #news {
+    height: 510px;
+  }
+  .news_text h1 {
+    font-size: 44px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Anuphan', sans-serif;
+  }
+}
+@media screen and (max-width:325px){
+    #news {
+        height: 500px;
+      }
+      .news_text h1 {
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+        font-family: 'Anuphan', sans-serif;
+      }
+}
+@media screen and (max-width:320px){
+    .service_section{
+     height: 480px !important;
+    } 
+    .addclass{
+        height: 720px !important;
+      }
+}
+@media screen and (max-width:300px){
+    #news {
+        height: 465px;
+      }
+      .news_text h1 {
+        font-size: 36px;
+        color: white;
+        font-weight: bold;
+        font-family: 'Anuphan', sans-serif;
+      }
+}
+@media screen and (max-width:280px){
+    .service_section{
+     height: 525px !important;
+    } 
+    .addclass{
+        height: 800px !important;
+      }
+      .choose_us::after {
+        content: '';
+        background-color: #FF4800;
+        position: absolute;
+        height: 2px;
+        width: 20%;
+        left: 0px;
+        top: 13px;
+      }
+      .deliver_text h1 {
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Anuphan', sans-serif;
+        margin-bottom: 40px;
+        position: relative;
+        top: 15px;
+      }
+}
+@media screen and (max-width:250px){
+    #news{
+        height: 500px;
+    }
+}

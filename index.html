@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AR Logistics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <div id="homesec"></div>
+    <!-- Navbar -->
+    <div style="width: 100%; box-shadow: 1px 1px 9px black;" class="sticky-top bg-nav">
+        <div class="container">
+            <div class="d-flex py-2 justify-content-between">
+                <div class="logo">
+                    <img src="./images/brand.png" alt="">
+                </div>
+                <div class="nav">
+                    <ul class="d-flex align-items-center list-item">
+                        <li><a href="#" class="nav_list">Home </a></li>
+                        <li> <a href="#about" class="nav_list ">About</a></li>
+                        <li><a href="#services" class="nav_list ">Services </a></li>
+                        <li><a href="#vision" class="nav_list ">Vision </a></li>
+                        <li><a href="#news" class="nav_list ">News </a></li>
+                        <li><i class="fa-solid fa-truck-fast fs-3 truck-icon"></i></li>
+                    </ul>
+                </div>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars ham" id="bar" onclick="shownav()"></i>
+                    <i class="fa-solid fa-xmark cross" id="xbar" onclick="hidenav()"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="displaynav">
+        <ul class="d-flex align-items-center container flex-column">
+            <li><a href="" class="nav_list">Home </a></li>
+            <li> <a href="#about" class="nav_list ">About</a></li>
+            <li><a href="#services" class="nav_list ">Services </a></li>
+            <li><a href="#vision" class="nav_list ">Vision </a></li>
+            <li><a href="#news" class="nav_list ">News </a></li>
+        </ul>
+    </div>
+
+    
+    <!-- main section -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/carosel1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/c2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/c3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- about us -->
+    <div class="w-100 pt-5 about_sec" style="background-color: #F8F8F8; padding-bottom: 120px;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 mb-5">
+                    <h1 class="Aboutus" id="about">About us</h1>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-md-12 mb-5">
+                    <div>
+                        <h1 class="aboutheading"> World Best Secure Safe and Trusted Logistic Services Provider </h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-md-12">
+                    <div>
+                        <p class="Arl_intro"><strong class="text-bold fs-5"> ARL </strong> will deliver the highest
+                            quality freight forwarding solutions & services, time & time
+                            again, with passion, integrity & energy.
+                            <strong class="text-bold fs-5"> ARL </strong> supervises and manages the delivery of an
+                            order, contract or project setting the path
+                            for companies large and small to meet their goals faster with reduced risk through focused
+                            planning and disciplined execution.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-100 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 col-sm-12">
+                    <div class="row">
+                        <div class="aboutbox">
+                            <div class="col-lg-5 me-2 col-md-6 col-sm-6 col-12 m_right">
+                                <div class="onTime">
+                                    <i class="fa-solid fa-truck-fast fast_truck"></i>
+
+                                    <h3> On Time Delivery </h3>
+                                    <p> We always provide people a complete solution focused of any business.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-6 col-sm-6 col-12">
+                                <div class="onTime">
+                                    <i class="fa-solid fa-globe globe"></i>
+                                    <h3>
+                                        Global Service
+                                    </h3>
+                                    <p> Connecting the world through seamless logistics solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 col-sm-12">
+                    <div class="abimg">
+                        <img src="./images/ab1.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div class="w-100 mb-3" id="services">
+        <div class="service_section " id="services_area">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-12 col-sm-12 pe-3 col-lg-6 mb-3">
+                        <div class="d-flex Service_text">
+                            <h5>All Our Services</h5>
+                            <h1>Service We Offer</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-6">
+                        <div class="d-flex justify-content-center flex-column service_text_sec" style="height: 250px;">
+                            <div class="services_top">
+                                <p id="Service_para" class="Service_descrip">
+                                    Our logistics company provides comprehensive end-to-end solutions for efficient
+                                    supply
+                                    chain
+                                    management. With a focus on transportation services, warehousing and distribution,
+                                    inventory
+                                    management, supply chain consulting, and value-added services.
+                                </p>
+                            </div>
+                            <div class="readmore">
+                                <button class="btn bg-white text-bold text-dark border-2 rounded mb-2"
+                                    onclick="Readmore()" id="servicebtn">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card_section">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="card cards">
+                            <img src="./images/service1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <h5 class="card-title text-color">Air Freight</h5>
+                                <p class="card-text" id="air">Our air freight services are designed to meet the diverse
+                                    needs of
+                                    businesses across various industries...</p>
+                                <a href="#" class="btn text-white" style="background-color: orangered;"
+                                    onclick="airfreight()" id="airsec">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="card cards">
+                            <img src="./images/service2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <h5 class="card-title text-color">Ocean Freight</h5>
+                                <p class="card-text" id="Ocean">We offer reliable and cost-effective solutions for
+                                    businesses
+                                    looking to transport goods internationally via sea...</p>
+                                <a href="#" class="btn text-white" style="background-color: orangered;"
+                                    onclick="oceanfreight()" id="oceansec">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="card cards">
+                            <img src="./images/service3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <h5 class="card-title text-color">Road Freight</h5>
+                                <p class="card-text" id="road"> We offer reliable and efficient transportation solutions
+                                    for
+                                    businesses across various industries...</p>
+                                <a href="#" class="btn text-white" style="background-color: orangered;"
+                                    onclick="roadfreight()" id="roadsec">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  Delivery section -->
+    <section>
+        <div class="w-100 deliver-img">
+            <div class="container">
+                <div class="row align-items-center deliver_row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 margin_bottom">
+                        <div class="position-relative person2">
+                            <img src="./images/person2.png" class="w-100 img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="position-relative deliver_text text-white">
+                            <p class="choose_us">Why Choose Us?</p>
+                            <h1> We Deliver your goods Very Fast & Secure</h1>
+                            <p class="fast_service">ARL company  take pride in delivering exceptional results with lightning speed. Our
+                                unwavering commitment to fast and efficient service ensures that your needs are met
+                                swiftly and accurately. Experience the difference of our rapid and reliable solutions, designed to exceed your expectations and keep your business moving forward at full speed."
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- vision -->
+    <section class="vision_section">
+        <div id="vision">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mb-5">
+                        <div>
+                            <h1 class="our_vision text-center">our vision</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 col-sm-12 mb-3">
+                        <div class="vision_text">
+                            <p>A.R. Logistics have a clearly defined vision for our business.  Our goal is to be the most admired company in the supply chain industry by exemplifying Unity, Growth and Excellence in everything we do. 
+                                To keep us focused on achieving this vision we are creating a strong and integrated business with people at its very heart.  To achieve this we have developed a series of values and brand imperatives which help us all act in a way that will steer us on the path to meet our vision of becoming the most admired
+                                </p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 col-sm-12 mb-3">
+                        <div class="visionimg">
+                            <img src="./images/vision.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News -->
+    <section id="news">
+        <div class="news_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="news_text">
+                            <p >News And Updates</p>
+                            <h1 class="text-white">Let's Checkout our All Latest News</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 imgcol">
+                        <div class="Newsimg">
+                            <img src="./images/news1.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <footer>
+            <div class="w-100 footer-img">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-lg-3 col-md-12 col-sm-12 f1">
+                        <div class="footer-logo">
+                            <img src="./images/logo-footer.png" class="img-fluid mb-5" alt="">
+                        </div>
+                        <div class="address position-relative mb-4">
+                            <h6 class="text-light-gray footer-font">Shahrah-e-Faisal Karachi,Sindh</h6>
+                        </div>
+                        <div class="phone-number d-flex position-relative mb-2">
+                            <i class="fa-solid fa-phone text-light-gray fs-5 pe-2 p-num"></i>
+                            <h6 class="text-light-gray footer-font">0336-3104132</p>
+                        </div>
+                        <div class="phone-number d-flex position-relative mb-3">
+                            <i class="fa-solid fa-envelope text-light-gray fs-5 pe-2 E-icon "></i>
+                            <h6 class="text-light-gray footer-font">info@ar-logistic.com</h6>
+                        </div>
+                        <div class="socialicon d-flex position-relative">
+                            <i class="fa-brands fa-facebook s_icon"></i>
+                            <i class="fa-brands fa-instagram s_icon"></i>
+                            <i class="fa-brands fa-twitter s_icon"></i>
+                            <i class="fa-brands fa-google-plus s_icon"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                        <div class="position-relative footer-services">
+                            <h4 class="text-white ">Services</h4>
+                            <ul class="text-light-gray services_ul">
+                                <li>Air Freight</li>
+                                <li>Ocean Freight</li>
+                                <li>Road Freight</li>
+                                <li>Warehousing</li>
+                                <li>Supply Chain</li>
+                                <li>Packaging</li>
+                                <li>Shipping</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                        <div class="position-relative footer-link">
+                            <h4 class="text-white">Useful links</h4>
+                            <ul >
+                                <li><a href="#carouselExampleIndicators " class="text-light-gray">Home</a> </li>
+                                <li><a href="#about" class="text-light-gray">About</a> </li>
+                                <li><a href="#services" class="text-light-gray">Services</a> </li>
+                                <li><a href="#news" class="text-light-gray">News</a> </li>
+                                <li><a href="#vision" class="text-light-gray">Vision</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
+                        <div class="contact-us">
+                            <h4 class="text-white">Contact us</h4>
+                            <ul class="text-light-gray Email-links">
+                                <li>info@ar-logistic.com</li>
+                                <li>sales@ar-logistic.com</li>            
+                                <li>accounts@ar-logistic.com</li>            
+                                <li>operation@ar-logistic.com</li>            
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="top">
+                    <a href="#homesec">
+                        <i class="fa-solid fa-arrow-up arrow-up"></i>
+                    </a>
+                </div>
+                <div class="hr py-4 position-relative d-flex align-items-center justify-content-center">
+                    <h6 class="text-light-gray CopyrightFont">Copyright © 2023 Ar logistics | All rights reserved</h6>
+                    
+                </div>
+                </div>
+            </div>
+
+
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
